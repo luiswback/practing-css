@@ -1,0 +1,22 @@
+.card-container {
+    width: calc(100% - 40px);
+    background-color: #F4D35E;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+.card-container h2 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+    .card-container {
+        max-width: 600px;
+        height: 800px;
+    }
+
+}

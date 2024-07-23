@@ -1,0 +1,14 @@
+.header-container{
+    width: 100vw;
+    height: 80px;
+    background-color: #F4D35E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.header-container h5{
+    font-size: 16px;
+    font-weight: 300;
+}
